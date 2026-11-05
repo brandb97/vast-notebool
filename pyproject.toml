@@ -1,0 +1,11 @@
+[project]
+name = "vast-notebook"
+version = "0.1.0"
+description = "Agent 与静态分析工具协同流程文档"
+requires-python = ">=3.11"
+dependencies = [
+    "jupyterlab>=4,<5",
+]
+
+[tool.uv]
+package = false
